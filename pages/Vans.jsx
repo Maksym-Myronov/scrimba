@@ -21,9 +21,12 @@ const vanElements = vans.map(van => (
 
 
   return (
-    <>
-      {vanElements}
-    </>
+    <div className="van-list-container">
+      <h1>Explore our van options</h1>
+      <div className="van-list">
+        {vanElements}
+      </div>
+    </div>
   )
 }
 
